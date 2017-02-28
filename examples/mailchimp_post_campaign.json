@@ -1,0 +1,16 @@
+{
+    "recipients": {
+        "list_id": "1ed179d13f"
+    },
+    "settings": {
+      "subject_line": "subject_line",
+      "title": "finalTEST",
+      "from_name": "from_name",
+      "reply_to": "reply@nfebot.com.br",
+      "to_name": "*|FNAME|*",
+      "folder_id": "6e76bf7679",
+      "auto_footer": true,
+      "inline_css": true
+    },
+    "type": "regular"
+}

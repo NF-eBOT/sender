@@ -1,0 +1,41 @@
+{
+  "id": 187921,
+  "type": "user",
+  "name": "Sped / Destaques - 5827bedeae954e2a79bdbedb",
+  "drag_and_drop": false,
+  "responsive": true,
+  "category": "",
+  "date_created": "2016-11-13T06:00:37+00:00",
+  "created_by": "Jonatas Freitas",
+  "active": true,
+  "folder_id": "e2bee989fa",
+  "thumbnail": "",
+  "share_url": "",
+  "_links": [
+    {
+      "rel": "self",
+      "href": "https://us13.api.mailchimp.com/3.0/templates/187921",
+      "method": "GET",
+      "targetSchema": "https://us13.api.mailchimp.com/schema/3.0/Templates/Instance.json"
+    },
+    {
+      "rel": "parent",
+      "href": "https://us13.api.mailchimp.com/3.0/templates",
+      "method": "GET",
+      "targetSchema": "https://us13.api.mailchimp.com/schema/3.0/Templates/Collection.json",
+      "schema": "https://us13.api.mailchimp.com/schema/3.0/CollectionLinks/Templates.json"
+    },
+    {
+      "rel": "delete",
+      "href": "https://us13.api.mailchimp.com/3.0/templates/187921",
+      "method": "DELETE"
+    },
+    {
+      "rel": "default-content",
+      "href": "https://us13.api.mailchimp.com/3.0/templates/187921/default-content",
+      "method": "GET",
+      "targetSchema": "https://us13.api.mailchimp.com/schema/3.0/Templates/Defaultcontent/Collection.json",
+      "schema": "https://us13.api.mailchimp.com/schema/3.0/CollectionLinks/Templates.json"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+
+  nf_ebot_sender:
+    build: .
+    volumes:
+     - .:/data
+    command: node /data/app/main
+    container_name: nf_ebot_sender
+    restart: always

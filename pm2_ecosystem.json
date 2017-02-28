@@ -1,0 +1,10 @@
+{
+  "apps" : [
+    {
+      "name": "nf-ebot-sender",
+      "script": "app/main.js",
+      "watch": true,
+      "max_memory_restart": "50M"
+    }
+  ]
+}

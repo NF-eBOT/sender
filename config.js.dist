@@ -1,0 +1,41 @@
+(() => {
+    "use strict";
+
+    module.exports = {
+
+        name: 'nf-ebot-scrapers',
+        development: true,
+
+        delay: 1800,
+
+        api: {
+            host: '',
+            token: ''
+        },
+
+        mailchimp: {
+             host: '',
+             token: '',
+             list_id: '',
+             folder_id: '',
+             reply_to: '',
+             from_name: ''
+        },
+
+        slack: {
+            alerts: {
+                webhook_token: '',
+                channel: '',
+                user: ''
+            },
+            logs: {
+                enable: true,
+                webhook_token: '',
+                channel: '',
+                user: ''
+            }
+        },
+
+    };
+
+})();
